@@ -1,7 +1,6 @@
 #' @title Tutorial submission functions
 #'
 #' @description
-#' This function is taken with permission from the qsslearnr package by Matt Blackwell
 #' The following function has modified from Colin
 #' Rundel's learnrhash package, available at
 #' https://github.com/rundel/learnrhash. Many thanks to Professor Rundel, who
@@ -34,7 +33,6 @@ submission_server <- function(input, output) {
       objs <- learnr:::get_all_state_objects(session)
       skips <- learnr:::section_skipped_progress_from_state_objects(objs)
       subs <- learnr:::submissions_from_state_objects(objs)
-      ##browser()
       out <- tibble::tibble(
         id = purrr::map_chr(subs, "id"),
         answers = purrr::map_chr(subs, list("data", "answer"),

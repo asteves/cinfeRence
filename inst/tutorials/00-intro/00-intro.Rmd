@@ -1,74 +1,66 @@
 ---
 title: "Introduction"
-output: learnr::tutorial
+tutorial:
+  id: "00-intro"
+output:
+  learnr::tutorial:
+    progressive: true
+    ace_theme: github 
+    theme: united
 runtime: shiny_prerendered
 ---
 
 ```{r setup, include=FALSE}
+library(gradethis)
 library(learnr)
+library(learncausalinfeRence)
+library(shiny)
+tutorial_options(exercise.checker = gradethis::grade_learnr)
 knitr::opts_chunk$set(echo = FALSE)
+tut_reptitle <- "Tutorial 0: Output Report"
 ```
 
 
-## Topic 1
+## Basics of R
 
-### Exercise 
+### R as a calculator
 
-*Here's a simple exercise with an empty code chunk provided for entering the answer.*
 
-Write the R code required to add two plus two:
+First, we'll learn how to use R as a calculator.
 
-```{r two-plus-two, exercise=TRUE}
+- Use the `+` sign to add 5 and 3
+
+```{r add, exercise=TRUE}
 
 ```
 
-### Exercise with Code
-
-*Here's an exercise with some prepopulated code as well as `exercise.lines = 5` to provide a bit more initial room to work.*
-
-Now write a function that adds any two numbers and then call it:
-
-```{r add-function, exercise=TRUE, exercise.lines = 5}
-add <- function() {
-  
-}
-```
-
-## Topic 2
-
-### Exercise with Hint
-
-*Here's an exercise where the chunk is pre-evaulated via the `exercise.eval` option (so the user can see the default output we'd like them to customize). We also add a "hint" to the correct solution via the chunk immediate below labeled `print-limit-hint`.*
-
-Modify the following code to limit the number of rows printed to 5:
-
-```{r print-limit, exercise=TRUE, exercise.eval=TRUE}
-mtcars
-```
-
-```{r print-limit-hint}
-head(mtcars)
-```
-
-### Quiz
-
-*You can include any number of single or multiple choice questions as a quiz. Use the `question` function to define a question and the `quiz` function for grouping multiple questions together.*
-
-Some questions to verify that you understand the purposes of various base and recommended R packages:
-
-```{r quiz}
-quiz(
-  question("Which package contains functions for installing other R packages?",
-    answer("base"),
-    answer("tools"),
-    answer("utils", correct = TRUE),
-    answer("codetools")
-  ),
-  question("Which of the R packages listed below are used to create plots?",
-    answer("lattice", correct = TRUE),
-    answer("tools"),
-    answer("stats"),
-    answer("grid", correct = TRUE)
-  )
+```{r add-check}
+grade_result(
+  pass_if(~ identical(.result, 8))
 )
+```
+
+
+- Use the `-` sign to subtract 3 from 5
+
+```{r subtract, exercise=TRUE, exercise.lines = 5}
+
+```
+
+```{r subtract-check}
+grade_result(
+  pass_if(~ identical(.result, 2))
+)
+```
+
+## Submit 
+
+```{r context="setup"}
+submission_ui
+```
+
+
+
+```{r context = "server"}
+submission_server()
 ```
