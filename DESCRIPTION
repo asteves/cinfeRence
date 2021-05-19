@@ -12,14 +12,18 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
-Suggests: 
-    learnr
 Imports: 
     shiny,
     gradethis (>= 0.2.3.9001),
     rlang,
-    base64enc
+    base64enc,
+    dplyr,
+    ggplot2,
+    tidyr,
+    broom,
+    stringr,
+    tibble,
+    purrr,
+    learnr
 Remotes: 
     rstudio-education/gradethis
-Depends: 
-    tidyverse
