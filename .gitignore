@@ -1,2 +1,3 @@
 .Rproj.user
-*.DS
+*.DS_store
+.DS*
