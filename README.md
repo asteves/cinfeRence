@@ -17,6 +17,9 @@ You can install the released version of cinfeRence from
 [GitHub](https://github.com/) with:
 
 ``` r
+# install.packages("remotes")
+remotes::install_github("rstudio/learnr")
+remotes::install_github("rstudio/gradethis")
 remotes::install_github("asteves/cinfeRence")
 ```
 

@@ -4,7 +4,7 @@
 \name{cinfeRence-package}
 \alias{cinfeRence}
 \alias{cinfeRence-package}
-\title{cinfeRence: What the Package Does (One Line, Title Case)}
+\title{cinfeRence: A hands on package for deliberate practice in applied causal inference}
 \description{
 Tutorials for Applied Causal Inference
 }
