@@ -6,12 +6,11 @@ runtime: shiny_prerendered
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-library(gradethis)
 library(learnr)
-library(learnrhash)
-library(learncausalinfeRence)
+library(gradethis)
+library(cinfeRence)
 tutorial_options(exercise.checker = gradethis::grade_learnr)
-tut_reptitle <- "Potential Outcomes 2: Output Report"
+tut_reptitle  <- "Potential Outcomes 2: Output Report"
 ```
 
 

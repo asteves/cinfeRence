@@ -13,10 +13,9 @@ description: "This tutorial will introduce you to the basics of R."
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-library(gradethis)
 library(learnr)
-library(learnrhash)
-library(learncausalinfeRence)
+library(gradethis)
+library(cinfeRence)
 tutorial_options(exercise.checker = gradethis::grade_learnr)
 tut_reptitle <- "Introduction: Output Report"
 ```
