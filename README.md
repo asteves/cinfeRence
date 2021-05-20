@@ -17,7 +17,6 @@ You can install the released version of learncausalinfeRence from
 [GitHub](https://github.com/) with:
 
 ``` r
-install.packages("learnr")
 remotes::install_github("asteves/cinfeRence")
 ```
 
@@ -30,11 +29,18 @@ Alternatively, you can run any tutorial from the R console by typing:
 learnr::run_tutorial("TUTORIAL_OF_INTEREST", package = "cinfeRence")
 ```
 
-This should bring up a tutorial in your default web browser. You can see
-the full list of tutorials in the package from the R console by typing:
+For example:
 
 ``` r
-learnr::run_tutorial("TUTORIAL_OF_INTEREST", package = "cinfeRence")
+learnr::run_tutorial("00-intro", package="cinfeRence")
+```
+
+will bring up the Introduction tutorial in your default web browser. You
+can see the full list of tutorials in the package from the R console by
+typing:
+
+``` r
+learnr::available_tutorials("cinfeRence")
 ```
 
 ## Submission Reports
