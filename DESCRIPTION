@@ -1,5 +1,5 @@
 Package: cinfeRence
-Title: What the Package Does (One Line, Title Case)
+Title: A hands on package for deliberate practice in applied causal inference
 Version: 0.0.1
 Authors@R: 
     person(given = "Alex",
@@ -22,7 +22,7 @@ Imports:
     stringr,
     tibble,
     purrr,
-    learnr,
     rmarkdown
 Remotes:  
-    rstudio-education/gradethis
+    rstudio-education/gradethis,
+    rstudio/learnr

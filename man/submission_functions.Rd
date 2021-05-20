@@ -13,6 +13,11 @@ submission_server(input, output)
 
 submission_ui
 }
+\arguments{
+\item{input}{an input}
+
+\item{output}{an output}
+}
 \description{
 The following function has modified from Colin
 Rundel's learnrhash package, available at

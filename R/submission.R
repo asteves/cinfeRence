@@ -12,7 +12,8 @@
 #' server function, `submission_server()`, be included in an R chunk where
 #' `context="server"`. Conversely, any of the ui functions, `*_ui()`, must *not*
 #' be included in an R chunk with a `context`.
-#'
+#' @param input an input
+#' @param output an output
 #' @rdname submission_functions
 #' @export
 submission_server <- function(input, output) {
