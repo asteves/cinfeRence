@@ -13,7 +13,7 @@ practice with the basics of causal inference.
 
 ## Installation
 
-You can install the released version of learncausalinfeRence from
+You can install the released version of cinfeRence from
 [GitHub](https://github.com/) with:
 
 ``` r

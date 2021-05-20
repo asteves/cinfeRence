@@ -24,7 +24,7 @@ The goal of these tutorials is to give students hands on deliberate practice wit
 
 ## Installation
 
-You can install the released version of learncausalinfeRence from [GitHub](https://github.com/) with:
+You can install the released version of cinfeRence from [GitHub](https://github.com/) with:
 
 ``` r
 remotes::install_github("asteves/cinfeRence")
