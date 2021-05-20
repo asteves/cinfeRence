@@ -5,8 +5,13 @@ runtime: shiny_prerendered
 ---
 
 ```{r setup, include=FALSE}
-library(learnr)
 knitr::opts_chunk$set(echo = FALSE)
+library(gradethis)
+library(learnr)
+library(learnrhash)
+library(learncausalinfeRence)
+tutorial_options(exercise.checker = gradethis::grade_learnr)
+tut_reptitle <- "Section 2: Output Report"
 ```
 
 
@@ -71,4 +76,15 @@ quiz(
     answer("grid", correct = TRUE)
   )
 )
+```
+
+
+## Submit 
+
+```{r context = "server"}
+submission_server()
+```
+
+```{r context = "setup"}
+submission_ui
 ```

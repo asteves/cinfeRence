@@ -18,7 +18,7 @@ library(learnr)
 library(learnrhash)
 library(learncausalinfeRence)
 tutorial_options(exercise.checker = gradethis::grade_learnr)
-tut_reptitle <- "QSS Tutorial 0: Output Report"
+tut_reptitle <- "Introduction: Output Report"
 ```
 
 
