@@ -1,6 +1,6 @@
 Package: learncausalinfeRence
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person(given = "Alex",
            family = "Stephenson",
@@ -13,7 +13,7 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Imports: 
-    shiny,
+    shiny (>= 1.4.0.2),
     gradethis (>= 0.2.3.9001),
     rlang,
     base64enc,
@@ -25,5 +25,3 @@ Imports:
     tibble,
     purrr,
     learnr
-Remotes: 
-    rstudio-education/gradethis

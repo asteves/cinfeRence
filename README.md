@@ -17,6 +17,7 @@ You can install the released version of learncausalinfeRence from
 [GitHub](https://github.com/) with:
 
 ``` r
+install.packages("learnr")
 remotes::install_github("asteves/learncausalinfeRence")
 ```
 

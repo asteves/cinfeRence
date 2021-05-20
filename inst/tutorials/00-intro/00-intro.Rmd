@@ -1,23 +1,24 @@
 ---
 title: "Introduction"
 tutorial:
-  id: "00-intro"
+  id: "37"
 output:
   learnr::tutorial:
     progressive: true
     ace_theme: github 
     theme: united
 runtime: shiny_prerendered
+description: "This tutorial will introduce you to the basics of R."
 ---
 
 ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
 library(gradethis)
 library(learnr)
+library(learnrhash)
 library(learncausalinfeRence)
-library(shiny)
 tutorial_options(exercise.checker = gradethis::grade_learnr)
-knitr::opts_chunk$set(echo = FALSE)
-tut_reptitle <- "Tutorial 0: Output Report"
+tut_reptitle <- "QSS Tutorial 0: Output Report"
 ```
 
 
@@ -55,12 +56,11 @@ grade_result(
 
 ## Submit 
 
-```{r context="setup"}
-submission_ui
-```
-
-
-
 ```{r context = "server"}
 submission_server()
 ```
+
+```{r context = "setup"}
+submission_ui
+```
+

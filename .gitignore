@@ -1,3 +1,6 @@
 .Rproj.user
 *.DS_store
 .DS*
+.Rhistory
+.R*
+

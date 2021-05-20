@@ -27,6 +27,7 @@ The goal of these tutorials is to give students hands on deliberate practice wit
 You can install the released version of learncausalinfeRence from [GitHub](https://github.com/) with:
 
 ``` r
+install.packages("learnr")
 remotes::install_github("asteves/learncausalinfeRence")
 ```
 
