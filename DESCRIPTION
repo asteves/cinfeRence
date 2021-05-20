@@ -1,4 +1,4 @@
-Package: learncausalinfeRence
+Package: cinfeRence
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.1
 Authors@R: 
@@ -24,4 +24,7 @@ Imports:
     stringr,
     tibble,
     purrr,
-    learnr
+    learnr,
+    rmarkdown
+Remotes:  
+    rstudio-education/gradethis

@@ -18,7 +18,7 @@ You can install the released version of learncausalinfeRence from
 
 ``` r
 install.packages("learnr")
-remotes::install_github("asteves/learncausalinfeRence")
+remotes::install_github("asteves/cinfeRence")
 ```
 
 There are two ways to start tutorials. In RStudio 1.3 or later, you will
@@ -27,14 +27,14 @@ default). Find a tutorial and click “Start Tutorial” to begin.
 Alternatively, you can run any tutorial from the R console by typing:
 
 ``` r
-learnr::run_tutorial("TUTORIAL_OF_INTEREST", package = "learncausalinfeRence")
+learnr::run_tutorial("TUTORIAL_OF_INTEREST", package = "cinfeRence")
 ```
 
 This should bring up a tutorial in your default web browser. You can see
 the full list of tutorials in the package from the R console by typing:
 
 ``` r
-learnr::run_tutorial("TUTORIAL_OF_INTEREST", package = "learncausalinfeRence")
+learnr::run_tutorial("TUTORIAL_OF_INTEREST", package = "cinfeRence")
 ```
 
 ## Submission Reports
